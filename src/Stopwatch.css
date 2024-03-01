@@ -1,0 +1,58 @@
+/* src/Stopwatch.css */
+.stopwatch-container {
+  position: relative;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+body{
+    background-color: yellow;
+    font-style: italic;
+    color:red;
+}
+
+.timer-display {
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.lap-display {
+    margin-top: 20px;
+    color: red;
+  }
+  
+  .lap-display h3 {
+    margin-bottom: 10px;
+  }
+  
+  .lap-display ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lap-display li {
+    margin: 5px 0;
+  }
+
+.controls-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
